@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<label id="lab" align="center">Color Pallete</label>
+<br>
+<button id="red" onclick="red();"></button>
+<button id="orange" onclick="orange();"></button>
+<button id="yellow" onclick="yellow();"></button>
+<button id="blue" onclick="blue();"></button>
+<button id="green" onclick="green();"></button>
+<button id="purple" onclick="purple();"></button>
+<button id="pink" onclick="pink();"></button>
+
+<body class="body_backgorund">
+
+    <div align="center">
+        <h1>Paint</h1>
+
+        <canvas id="myCanvas" width="800" height="600"></canvas>
+        <br><br>
+
+        <span>Color - </span> <input type="text" id="color"> <br><br> <span>Width Of the line - </span> <input
+            type="text" id="width_of_line"> <br><br> <button onclick="clearArea();">Clear Area</button>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
